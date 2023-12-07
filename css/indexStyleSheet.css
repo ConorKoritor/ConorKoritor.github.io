@@ -7,3 +7,9 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .container-fluid{
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    overflow: hidden;
+  }
