@@ -1,0 +1,4 @@
+shopping-cart-add_3916604.png   "<a href="https://www.freepik.com/search?format=search&freeSvg=free&last_filter=query&last_value=cart&query=cart&shape=outline&type=icon">Icon by UIcons</a>"
+cart-arrow-down_9797818  "<a href="https://www.freepik.com/search?format=search&freeSvg=free&last_filter=query&last_value=cart&query=cart&shape=outline&type=icon">Icon by UIcons</a>"
+shopping-cart_3916598  "<a href="https://www.freepik.com/search?format=search&freeSvg=free&last_filter=query&last_value=cart&query=cart&shape=outline&type=icon">Icon by UIcons</a>"
+shopping-cart-check_3916645  "<a href="https://www.freepik.com/search?format=search&freeSvg=free&last_filter=page&last_value=1&page=1&query=cart&shape=outline&type=icon#uuid=7a1ce7cb-56db-4ca6-849e-453dbc27a01d">Icon by UIcons</a>"

@@ -2,9 +2,11 @@
 
 
 
-var addtocart = document.getElementById('addtocart');
+const addtocart = document.querySelectorAll(".addtocart");
 // add a listener for add to cart if such a button id is pressed
-addtocart.addEventListener("click", addToCart);
+for(let i of addtocart){
+    i.addEventListener("click", addToCart)
+}
 
 
 function addToCart() {

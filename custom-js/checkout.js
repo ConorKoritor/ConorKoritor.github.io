@@ -19,6 +19,8 @@ checkout.addEventListener("click", () => {
         var total=0;
         // makes sure that when we goto another page the total is zero 
         localStorage.setItem('checkout',total); 
+        //Set Checkout to 0
+        document.querySelector('#checkout').innerHTML=total;
     } else {
         var element = document.getElementById("payment-success");
         element.classList.add("d-none");
