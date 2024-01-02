@@ -11,9 +11,8 @@
  <link rel="stylesheet" href="css/navBarStyleSheet.css">
 </head>
 <body>
-<main class="container">
 
-  <nav class=" navbar navbar-expand-lg navbar-dark z-2 position-absolute fixed-top vw-100">
+  <nav class=" navbar navbar-expand-lg z-2 sticky-top vw-50" style="background-color: #FFFFFF; border-bottom-style: solid; border-color: #0dcaf0; border-width: 4px;">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         CK's Computers
@@ -37,28 +36,27 @@
           <li class="nav-item">
            
             <a class="nav-link"  id="loginlogout" href="login.html">
-              <button type="button" class="btn btn-success ml-2">
+              <button type="button" class="btn btn-success mt-2">
               Login
               <span class="badge badge-light" id="loginlogoutbutton"></span>
             </button>
             </a>
           </li>
-          
+          <li>
+              <a class="nav-item nav-link" href="checkout.html">
+              <button type="button" class="btn btn-info ml-2">
+                <img src="images/icons/shopping-cart_3916598.png" height="35rem" width="35rem" alt="Shopping Cart"/>
+                <span class="badge badge-light" id="checkout"></span>
+              </button>
+              </a> 
+          </li>
         </ul>
-  
-      <!-- <div class="btn-toolbar">
-          <a class="nav-item nav-link" href="checkout.html">
-          <button type="button" class="btn btn-info ml-2">
-            <img src="images/icons/shopping-cart_3916598.png" height="35rem" width="35rem" alt="Shopping Cart"/>
-            <span class="badge badge-light" id="checkout"></span>
-          </button>
-          </a> 
-          </div> -->
-          
       </div>
+      
     </div>
-  </nav>  
-    
+  </nav>
+   
+<main class="container"> 
  <h1>About</h1>
  <p>You think I'm funny? I amuse you?</p>
 

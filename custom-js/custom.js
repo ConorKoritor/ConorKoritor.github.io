@@ -30,7 +30,7 @@ function Logout() {
 // check if user is logged in or logged out..
 checkLoginStatus()
 
-function checkLoginStatus() {
+/*function checkLoginStatus() {
     
     var loggedin=localStorage.getItem('loggedIn'); 
     var element = document.getElementById("userdetails");
@@ -49,6 +49,7 @@ function checkLoginStatus() {
     } 
 
 }
+*/
 
 
 
