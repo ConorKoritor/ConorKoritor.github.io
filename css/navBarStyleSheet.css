@@ -8,8 +8,41 @@
     background-size: cover;
   }
 
-  .container-fluid{
+  .navbar .container-fluid{
     padding-left: 7.5rem;
     padding-right: 7.5rem;
     overflow: hidden;
+  }
+
+  .cart{
+    width: 60rem;
+  }
+
+  .item img{
+    float: left;
+  }
+  
+
+  @media only screen and (min-width: 400px) and (max-width: 767px) {
+    .navbar .container-fluid{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      overflow: hidden;
+    }
+
+    .cart{
+      width: 20rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar .container-fluid{
+      padding-left: 5rem;
+      padding-right: 5rem;
+      overflow: hidden;
+    }
+
+    .cart{
+      width: 40rem;
+    }
   }

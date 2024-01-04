@@ -30,26 +30,31 @@ function Logout() {
 // check if user is logged in or logged out..
 checkLoginStatus()
 
-/*function checkLoginStatus() {
+function checkLoginStatus() {
     
     var loggedin=localStorage.getItem('loggedIn'); 
     var element = document.getElementById("userdetails");
+    var loginbtn = document.querySelector('#loginlogout');
     if (loggedin==1) {
         // change the text from Login to Logout
-        document.querySelector('#loginlogout').innerHTML="Logout";
         element.classList.remove("d-none");        
-        element.classList.add("d-show");      
+        element.classList.add("d-show"); 
+        loginbtn.innerHTML="Logout";
+        loginbtn.classList.remove("btn-success");        
+        loginbtn.classList.add("btn-danger");
     } else{
         // use add to hide the display of User Details
         element.classList.add("d-none");        
         element.classList.remove("d-show");
         document.querySelector('#loginlogout').innerHTML="Login"; 
         element = document.getElementById("loginlogout");
-        element.setAttribute("href", "login.html");
+        element.setAttribute("href", "login.html");        
+        loginbtn.classList.add("btn-success");        
+        loginbtn.classList.remove("btn-danger");  
     } 
 
 }
-*/
+
 
 
 
