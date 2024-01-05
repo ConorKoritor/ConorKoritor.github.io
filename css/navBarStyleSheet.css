@@ -21,7 +21,25 @@
   .item img{
     float: left;
   }
-  
+
+  /* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ #map {
+  height: 100%;
+}
+
+.product{
+  margin-bottom: 2rem;
+}
+
+.product-picture{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.product{
+  min-height: 382px;
+}
 
   @media only screen and (min-width: 400px) and (max-width: 767px) {
     .navbar .container-fluid{
